@@ -10,7 +10,7 @@ script:
 
 deploy:
   provider: pages
-  local-dir: public
+  local-dir: company-web/public
   repo: kanekotic/exampleweb.kanekotic.github.com
   target-branch: master
   skip-cleanup: true

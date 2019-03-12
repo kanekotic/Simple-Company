@@ -10,7 +10,7 @@ You can get a domain from [Ionos](http://ionos.com/). `.com` domains from here a
 
 ## Webpage
 
-If your intention is to publicise your services the simplest solution is to have a static webpage. This are basically generation of HTML from a set of information you want to share. You can se an example in ()[].
+If your intention is to publicise your services the simplest solution is to have a static webpage. This are basically generation of HTML from a set of information you want to share. You can se an example (here)[http://exampleweb.kanekotic.com/].
 
 ## Email
 
