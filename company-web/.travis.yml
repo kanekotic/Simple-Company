@@ -1,0 +1,23 @@
+sudo: true
+dist: trusty
+
+install:
+  - sudo apt-get --yes install snapd
+  - sudo snap install hugo
+
+script:
+  - /snap/bin/hugo 
+
+deploy:
+  provider: pages
+  local-dir: public
+  repo: kanekotic/exampleweb.kanekotic.github.com
+  target-branch: master
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  fqdn: exampleweb.kanekotic.com
+  committer-from-gh: true
+  keep-history: true
+  on:
+    branch: master
+    
